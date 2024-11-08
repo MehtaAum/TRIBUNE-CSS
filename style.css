@@ -1,0 +1,517 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 2915px;
+    background-color: rgb(17,17,22);
+    color: white;
+    padding-inline: 350px;
+    
+}
+
+/* navbar */
+.main .navbar{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .navbar .menu{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer
+}
+
+.main .navbar .menu i{
+    font-size: 24px;
+    color: white;
+} 
+.main .navbar .menu p{
+    font-weight: 600;
+    color: rgb(223,221,230);
+    font-size: 15px;
+}
+
+.main .navbar .headingnav{
+   display: flex;
+   align-items: center;
+   width: 420px;
+}
+
+.main .navbar .headingnav h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(224,222,231);
+    letter-spacing: -2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.main .navbar .headingnav p{
+    font-weight: 300;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(224,222,231);
+    letter-spacing: -2px;
+}
+
+.main .navbar .search{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: end;
+}
+
+.main .navbar .search input{
+    width: 72px;
+    background: transparent;
+    border: none;  
+    transition: 0.6s;
+    color: white;
+}
+
+.main .navbar .search input:hover{
+    margin-right: 10px;
+}
+
+.main .navbar .search i{
+    font-size: 22px;
+    color: rgb(211, 210, 211);
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgb(211, 210, 211);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.lineall{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.lineall p{
+    font-size: 14px;
+    color:  rgb(224,222,231);
+    cursor: context-menu;
+}
+
+.lineall .lineone, .linetwo{
+    width: 555px;
+    height: 0.5px;
+    background-color: rgb(47,44,51);
+}
+
+/* navbar */
+
+/* main context */
+
+.maincon{
+    width: 100%;
+    height: 2450px;
+}
+
+.maincon .submainone{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    height: 411px;
+}
+
+.maincon .submainone .picinfo{
+    width: 583px;
+    height: 411px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maincon .submainone .picone{
+    width: 583px;
+    height: 367px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/1.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+
+.maincon .submainone .picone:hover{
+    transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    
+}
+.maincon .submainone .pictwo:hover{
+    transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    
+}
+.maincon .submainone .picthree:hover{
+    transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    
+}
+.maincon .submainone .picfor:hover{
+    transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    
+}
+
+.maincon .submainone .pictwo{
+    width: 583px;
+    height: 367px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/2.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+.maincon .submainone .picthree{
+    width: 583px;
+    height: 367px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/3.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+.maincon .submainone .picfor{
+    width: 583px;
+    height: 367px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/4.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+
+.maincon .submainone .picinfo button{
+    width: 67px;
+    height: 24px;
+    background-color: rgb(43,43,54);
+    color: rgb(147,146,153);
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.maincon .submainone .picinfo button:hover{
+    background-color: rgb(224,222,231);
+    color: black;
+}
+
+        /* posts grid */
+
+.secline{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.maincon .submainsec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    height: 285px;
+}
+
+.maincon .submainsec .picinfosec{
+    width: 380px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+     /* postgrid 1 column */
+.maincon .submainsec .postone{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/5.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+.maincon .submainsec .postsec{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/6.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+.maincon .submainsec .postthree{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/7.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+      /* postgrid2column */
+
+      .maincon .submainsec .post2one{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/8.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+    .maincon .submainsec .post2sec{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/9.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+    .maincon .submainsec .post2three{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/10.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+
+      /* postgrid3column */
+
+
+      .maincon .submainsec .post3one{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/11.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+    .maincon .submainsec .post3sec{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/12.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+    .maincon .submainsec .post3three{
+        width: 378px;
+        height: 238px;
+        border: 1px solid rgb(47,44,51);
+        background-image: url(./asset/13.webp);
+        background-size: cover;
+        border-radius: 8px;
+        transition: 0.8s;
+    }
+
+    /* allpostgrid hover */
+    .maincon .submainsec .postone:hover,
+    .maincon .submainsec .postsec:hover,
+    .maincon .submainsec .postthree:hover,
+    .maincon .submainsec .post2one:hover,
+    .maincon .submainsec .post2sec:hover,
+    .maincon .submainsec .post2three:hover,
+    .maincon .submainsec .post3one:hover,
+    .maincon .submainsec .post3sec:hover,
+    .maincon .submainsec .post3three:hover
+    {
+        transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+    }
+
+    /* allpostgrid hover */
+
+
+.maincon .submainsec .picinfosec button{
+    width: 112px;
+    height: 24px;
+    background-color: rgb(43,43,54);
+    color: rgb(147,146,153);
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.maincon .submainsec .picinfosec button:hover{
+    background-color: rgb(224,222,231);
+    color: black;
+}
+
+   /* otherpages */
+
+   .maincon .submainsec .other3one{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/14.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+   .maincon .submainsec .other3sec{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/lets\ see.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+   .maincon .submainsec .other3three{
+    width: 378px;
+    height: 238px;
+    border: 1px solid rgb(47,44,51);
+    background-image: url(./asset/girl\ hair.webp);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 0.8s;
+}
+    
+/* other hover */
+
+.maincon .submainsec .other3one:hover,
+.maincon .submainsec .other3sec:hover,
+.maincon .submainsec .other3three:hover
+{
+    transform: scale(1.0400);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/* main context */
+
+/* .footer */
+  
+  .footer{
+    width: 100%;
+    height: 190px;
+    border-top: 0.5px solid rgb(47,44,51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer .headingfoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 40px;
+  }
+
+  .mainname{
+    display: flex;
+  }
+
+  .footer .headingfoot h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(224,222,231);
+    letter-spacing: -2px;
+    cursor: pointer;
+}
+
+.footer .headingfoot p{
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(224,222,231);
+    letter-spacing: -2px;
+    margin-top: 6px;
+
+}
+
+.footer .headingfoot span{
+    font-size: 13px;
+    color: rgb(161,160,168);
+    transition: 0.4s;
+}
+
+.footer .footsechead{
+    width: 200px;
+    height: 120px;
+    border-left: 0.5px solid rgb(47,44,51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(161,160,168);
+    font-size: 15px;
+}
+
+.footer .footsechead p,
+.footer .footthreehead p
+{
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.footer .footthreehead{
+    width: 200px;
+    height: 120px;
+    border-left: 0.5px solid rgb(47,44,51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(161,160,168);
+    font-size: 15px;
+    margin-right: 100px;
+    
+
+}
+
+.footer .headingfoot span:hover,
+.footer .footsechead p:hover,
+.footer .footthreehead p:hover
+{
+
+    color: rgb(224,222,231);
+    cursor: pointer;
+}
+
+
+/* .footer */
